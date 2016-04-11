@@ -11,11 +11,12 @@
 	    </div>
 	    <div class="ws-4 hide-smartphone">
 	    	<h4>The developer</h4>
-	      Code-name Kim Korte. Nah, that's my real name. I'm a web developer & code enthusiast living in Sweden.<br />
+	      I go by the name of Kim Korte. I'm a web developer & code enthusiast living in Sweden.<br />
 	      <a href="http://twitter.com/kortekim" target="_blank">
 	      	<span class="icon icon-twitter" style="color:#7fb3ee;"></span>
 	      	@kortekim
-	      </a>
+	      </a><br />
+	      <a href="http://korte.kim" target="_blank">korte.kim</a>
 	    </div>
 	    <div class="ws-4 clearfix hide-smartphone">
 	    	<div class="pull-right">

@@ -1,4 +1,5 @@
 <div class="top">
+  <? if(!isset($_GET['page'])) { ?>
   <div class="fullwidth">
     <div class="drop ipad">
       <img src="<?=$app->url?>assets/image/crow-ipad.png" alt="" />
@@ -13,10 +14,10 @@
 
           <ul class="inline">
             <li>
-              <a href="?download=crow-2.0/crow.min.css" target="_blank" class="button blue">Download</a>
+              <a href="?download=crow-2.0/crow.min.css" target="_blank" class="button blue" style="padding-top: 13px;">Download</a>
             </li>
             <li>
-              <a href="https://github.com/kkortes/crow" target="_blank" class="button green">
+              <a href="https://github.com/kkortes/crow" target="_blank" class="button green" style="padding-top: 13px;">
                 <span class="icon icon-github"></span>
                 Github
               </a>
@@ -32,5 +33,5 @@
         </span>
       </a>
     </div>
-  </div>
+  </div> <? } ?>
 </div>

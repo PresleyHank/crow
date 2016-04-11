@@ -51,28 +51,28 @@
             <div class="circle">
               <span class="icon icon-ghost"></span>
             </div>
-            <p>No tables, no absolute positioning,<br /> no floats, no clearfix'es
+            <p>No tables, no absolute positioning, no floats, no clearfix'es
             </p>
           </li>
           <li class="ws-4">
             <div class="circle">
               <span class="icon icon-wand"></span>
             </div>
-            <p>Fly functionality automatically sets<br /> widths of child elements
+            <p>Fly functionality automatically sets widths of child elements
             </p>
           </li>
           <li class="ws-4">
             <div class="circle">
               <span class="icon icon-responsive"></span>
             </div>
-            <p>Works in all modern browsers,<br /> smartphones, tablets and IE8+
+            <p>Works in all modern browsers, smartphones, tablets and IE8+
             </p>
           </li>
           <li class="ws-4">
             <div class="circle">
               <span class="icon icon-target"></span>
             </div>
-            <p>Smart center-center alignment<br /> (if desired)
+            <p>Smart center-center alignment (if desired)
             </p>
           </li>
           <li class="ws-4">
@@ -86,7 +86,7 @@
             <div class="circle">
               <span class="icon icon-bulb"></span>
             </div>
-            <p>Endless possibilities – grids, sliders,<br /> dot-navigation, side-by-side blocks,<br /> center-center'ing
+            <p>Endless possibilities – grids, sliders, dot-navigation, side-by-side blocks, center-center'ing
             </p>
           </li>
         </ul>
@@ -107,7 +107,7 @@
 
     <div class="button-height">
       <a href="?download=crow-2.0/crow.min.css" class="button blue">
-        <span class="icon icon-cloud"></span> Download
+        <span class="icon icon-cloud"></span> <span style="vertical-align: top;margin-top: -2px;display:inline-block;">Download</span>
       </a>
     </div>
 
@@ -145,14 +145,14 @@
     <div class="crow up">
       <div class="ws-6">
         <ul>
-          <li>Wrapping the whole website is done by using a div with the class ".nest"</li>
+          <li>Wrap blocks of elements by using a div with the class ".nest"</li>
           <li>Text directly put into a ".crow"-element will dissapear, due to "font-size:0;" rule (this shouldn't be done anyway)</li>
-          <li>Crow bundles a smart solution to simple media queries, namely smartphone (both orientations), tablet (both orientations) and desktop-only</li>
+          <li>Crow bundles both .less and .styl files for pre-processing. Pick your style! To make something act Crow'y simply use the less mixing .crow() or the stylus function crow(). In the same manner you can .uncrow() / uncrow() something.</li>
         </ul>
       </div>
       <div class="ws-6">
         <ul>
-          <li>For semantic markup it's recommended to use the .styl file and call stylus "@extend .crow .ws-5" (span 5/12 as an example)</li>
+          <li>For semantic markup it's recommended to use the .styl file and call stylus "@extend .crow .ws-5" (span 5/12 as an example). Same goes for the .less-counterpart.</li>
           <li>The classes to keep in mind when working with Crow is (also see Usage): .nest, .crow, .fly, .up, .down, .ws-{1to12}, .w-{1to100} & .no-gutter</li>
         </ul>
       </div>
