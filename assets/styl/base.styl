@@ -2,6 +2,7 @@
  Base css file. The compiled .css from this file should be the only file included on your web
 */
 
+
 @import "../css/prism.css"
 @import "../fonts/icomoon/style.css"
 
@@ -41,6 +42,23 @@ styl = "../../bower_components/leaf-css-framework/styl/"
 @import styl+"nostyle"
 //@import styl+"normalize"
 @import styl+"topbot"
+
+$screen-xs-min =      481px;
+$screen-phone =       $screen-xs-min;
+
+$screen-sm-min =      768px;
+$screen-tablet =      $screen-sm-min;
+
+$screen-md-min =      992px;
+$screen-desktop =     $screen-md-min;
+
+$screen-lg-min =      1200px;
+$screen-lg-desktop =  $screen-lg-min;
+
+$screen-xs-max =      ($screen-sm-min - 1)
+$screen-sm-max =      ($screen-md-min - 1)
+$screen-md-max =      ($screen-lg-min - 1)
+
 @import styl+"crow"
 
 // Compontents
