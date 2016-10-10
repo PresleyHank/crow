@@ -147,12 +147,12 @@
         <ul>
           <li>Wrap blocks of elements by using a div with the class ".nest"</li>
           <li>Text directly put into a ".crow"-element will dissapear, due to "font-size:0;" rule (this shouldn't be done anyway)</li>
-          <li>Crow bundles both .less and .styl files for pre-processing. Pick your style! To make something act Crow'y simply use the less mixing .crow() or the stylus function crow(). In the same manner you can .uncrow() / uncrow() something.</li>
+          <li>Crow bundles .less, .scss and .styl files for pre-processing. Pick your style! To make something act Crow'y simply use the less mixing .crow(), sass mixin crow() or the stylus function crow(). In the same manner you can .uncrow() / uncrow() something.</li>
         </ul>
       </div>
       <div class="ws-6">
         <ul>
-          <li>For semantic markup it's recommended to use the .styl file and call stylus "@extend .crow .ws-5" (span 5/12 as an example). Same goes for the .less-counterpart.</li>
+          <li>For semantic markup it's recommended to use the .styl file and call stylus "@extend .crow .ws-5" (span 5/12 as an example). Same goes for the .less/sass-counterparts.</li>
           <li>The classes to keep in mind when working with Crow is (also see Usage): .nest, .crow, .fly, .up, .down, .ws-{1to12}, .w-{1to100} & .no-gutter</li>
         </ul>
       </div>
