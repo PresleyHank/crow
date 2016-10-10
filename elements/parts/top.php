@@ -14,7 +14,7 @@
 
           <ul class="inline">
             <li>
-              <a href="?download=crow-2.0/crow.min.css" target="_blank" class="button blue" style="padding-top: 13px;">Download</a>
+              <a href="?download=crow-2.0/crow.min.css" target="_blank" class="button blue" style="padding-top: 13px;">Download css</a>
             </li>
             <li>
               <a href="https://github.com/kkortes/crow" target="_blank" class="button green" style="padding-top: 13px;">
