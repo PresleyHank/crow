@@ -1,4 +1,4 @@
-Example 1: <span class="small">basic usage</span>
+<p style="margin: 0;">Example 1: <span class="small">basic usage</span></p>
 <div class="spacer half"></div>
 <div class="example-box">
 	<div class="crow">
@@ -18,7 +18,7 @@ Example 1: <span class="small">basic usage</span>
 
 <div class="spacer"></div>
 
-Example 2: <span class="small">basic 12 span-grid</span>
+<p style="margin: 0;">Example 2: <span class="small">basic 12 span-grid</span></p>
 <div class="spacer half"></div>
 <div class="example-box">
 	<div class="crow">
@@ -38,7 +38,7 @@ Example 2: <span class="small">basic 12 span-grid</span>
 
 <div class="spacer"></div>
 
-Example 3: <span class="small">% widths</span>
+<p style="margin: 0;">Example 3: <span class="small">% widths</span></p>
 <div class="spacer half"></div>
 <div class="example-box">
 	<div class="crow">
@@ -58,7 +58,7 @@ Example 3: <span class="small">% widths</span>
 
 <div class="spacer"></div>
 
-Example 4: <span class="small">autowidths with fly</span>
+<p style="margin: 0;">Example 4: <span class="small">autowidths with fly</span></p>
 <div class="spacer half"></div>
 <div class="example-box">
 	<div class="crow fly">
@@ -78,7 +78,7 @@ Example 4: <span class="small">autowidths with fly</span>
 
 <div class="spacer"></div>
 
-Example 5: <span class="small">remove padding (gutter)</span>
+<p style="margin: 0;">Example 5: <span class="small">remove padding (gutter)</span></p>
 <div class="spacer half"></div>
 <div class="example-box">
 	<div class="crow fly no-gutter">
@@ -98,7 +98,7 @@ Example 5: <span class="small">remove padding (gutter)</span>
 
 <div class="spacer"></div>
 
-Example 6: <span class="small">vertical alignment</span>
+<p style="margin: 0;">Example 6: <span class="small">vertical alignment</span></p>
 <div class="spacer half"></div>
 <div class="example-box">
 	<div class="crow fly" style="height:150px;">
@@ -118,7 +118,7 @@ Example 6: <span class="small">vertical alignment</span>
 
 <div class="spacer"></div>
 
-Example 7: <span class="small">normal grid behaviour</span>
+<p style="margin: 0;">Example 7: <span class="small">normal grid behaviour</span></p>
 <div class="spacer half"></div>
 <div class="example-box">
 	<div class="crow fly up" style="height:100px;">
@@ -138,7 +138,7 @@ Example 7: <span class="small">normal grid behaviour</span>
 
 <div class="spacer"></div>
 
-Example 8: <span class="small">center-centering</span>
+<p style="margin: 0;">Example 8: <span class="small">center-centering</span></p>
 <div class="spacer half"></div>
 <div class="example-box" style="height:400px;">
 	<div class="crow" style="height:100%;">

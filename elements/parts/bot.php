@@ -11,7 +11,8 @@
 	    </div>
 	    <div class="ws-4 hide-smartphone">
 	    	<h4>The developer</h4>
-	      I go by the name of Kim Korte. I'm a web developer & code enthusiast living in Sweden.<br />
+	      <p>I go by the name of Kim Korte. I'm a web developer & code enthusiast living in Sweden.
+	      </p>
 	      <a href="http://twitter.com/kortekim" target="_blank">
 	      	<span class="icon icon-twitter" style="color:#7fb3ee;"></span>
 	      	@kortekim

@@ -11,6 +11,12 @@ light-green()
 gray()
   rgba(#313131)
 
+a
+  color: get-blue()
+  text-decoration: none
+  &:hover
+    color: get-darkblue()
+
 .crow
   font-family: arial, sans-serif
   > *:not(.icon)
@@ -47,21 +53,27 @@ h1, h2, h3, h4, h5, h6
 p
   color: gray()
   font-weight: 100
+  font-size: 20px
+  line-height: 30px
 
 .bot
   .fullwidth
     background-color: dark-blue()
     padding: 100px 0
+    color: get-white()
     h4
       margin-top: 0
       font-size: 28px
       line-height: 36px
     p
-      font-size: 20px
-      line-height: 32px
+      font-size: 16px
+      line-height: 22px
+      color: get-white()
     a:not(.crow-logo)
       color: normal-blue()
       transition: color .15s ease
+      font-size: 16px
+      line-height: 26px
       &:hover
         text-decoration: none
         color: get-white()
@@ -127,7 +139,6 @@ p
         vertical-align: top
         padding-top: 30px
         &:last-child
-          padding-top: 22px
           margin-left: 20px
 
 block-basics()
@@ -147,6 +158,11 @@ block-basics()
   ul
     position: relative
     z-index: 1
+    li
+      color: get-white()
+      font-size: 16px
+      line-height: 24px
+      margin-bottom: 10px
   .drop
     z-index: 0
   .icon-crow

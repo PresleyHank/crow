@@ -12,12 +12,12 @@ module.exports = (grunt) ->
       app:
         files:
           './assets/css/base.css' : './assets/styl/base.styl'
-    imagemin:
-      files:
-         expand: true
-         cwd: './assets/image/'
-         src: ['**/*.{png,jpg,gif}'],
-         dest: './assets/image/'
+    # imagemin:
+    #   files:
+    #      expand: true
+    #      cwd: './assets/image/'
+    #      src: ['**/*.{png,jpg,gif}'],
+    #      dest: './assets/image/'
     uglify:
       app:
         options: 
@@ -55,7 +55,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks 'grunt-contrib-watch'
   grunt.loadNpmTasks 'grunt-contrib-concat'
   grunt.loadNpmTasks 'grunt-contrib-uglify'
-  grunt.loadNpmTasks 'grunt-contrib-imagemin'
+  # grunt.loadNpmTasks 'grunt-contrib-imagemin'
   grunt.loadNpmTasks 'grunt-contrib-cssmin'
   grunt.loadNpmTasks 'grunt-contrib-stylus'
   grunt.loadNpmTasks 'grunt-notify';
