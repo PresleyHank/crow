@@ -25,7 +25,7 @@
           </ul>
           <ul class="inline hide-smartphone">
             <li>
-              <a href="?download=crow-2.0/crow.styl" target="_blank" class="button red" style="padding-top: 13px;">Stylus</a>
+              <a href="?download=crow-2.0/crow.styl" target="_blank" class="button lightred" style="padding-top: 13px;">Stylus</a>
             </li>
             <li>
               <a href="?download=crow-2.0/crow.less" target="_blank" class="button pink" style="padding-top: 13px;">Less</a>
