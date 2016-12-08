@@ -101,7 +101,7 @@
     <h2>Setup & download</h2>
     <div class="spacer quarter"></div>
     <p class="lead">
-      Crow is just a regular .css-file, include in in your <?=htmlspecialchars('<head>');?>-tag and you are ready to go! <br />Fly functionality is not working properly for IE8 therefore <a href="?download=crow-2.0/crow-ie.js">crow-ie.js</a> is required.
+      Crow is just a regular .css-file, include in in your <?=htmlspecialchars('<head>');?>-tag and you are ready to go!
     </p>
     <div class="spacer half"></div>
 
@@ -153,7 +153,7 @@
       <div class="ws-6">
         <ul>
           <li>For semantic markup it's recommended to use the .styl file and call stylus "@extend .crow .ws-5" (span 5/12 as an example). Same goes for the .less/sass-counterparts.</li>
-          <li>The classes to keep in mind when working with Crow is (also see Usage): .nest, .crow, .fly, .up, .down, .ws-{1to12}, .w-{1to100} & .no-gutter</li>
+          <li>The classes to keep in mind when working with Crow is (also see Usage): .nest, .crow, .fly, .up, .down, .ws-{1to12}, .w-{1to100} & .gutter</li>
         </ul>
       </div>
     </div>

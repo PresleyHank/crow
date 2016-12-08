@@ -47,38 +47,39 @@ crow()
     padding: 0
     
 .crow
-  padding: 0 ($gutter * 1px)
   crow()
   percent-widths($percent-widths-iterations)
   unit-widths($unit-widths-iterations)
   &.fly
     auto-widths($auto-widths-iterations)
-  .crow
-    font-size: 0
-  > *
-    padding: 0 ($gutter * 1px)
-    &.up
-      vertical-align: top
-    &.down
-      vertical-align: bottom
   &.up
     > *
       vertical-align: top
   &.down
     > *
       vertical-align: bottom
-  &.no-gutter
-    padding: 0
+  > *
+    &.up
+      vertical-align: top
+    &.down
+      vertical-align: bottom
+
+.crow
+  &.gutter
+    padding-right: ($gutter * 1px)
+    padding-left: ($gutter * 1px)
+    margin-right: (- $gutter * 1px)
+    margin-left: (- $gutter * 1px)
     > *
-      padding: 0
+      padding-right: ($gutter * 1px)
+      padding-left: ($gutter * 1px)
 
 .nest
   width: 960px
-  margin: 0 auto
-  padding: 0 ($gutter * 1px)
-  > .crow
-    margin: 0 (- $gutter * 1px)
-    padding: 0
+  padding-right: ($gutter * 1px)
+  padding-left: ($gutter * 1px)
+  margin-right: auto
+  margin-left: auto
     
 uncrow()
   &.crow

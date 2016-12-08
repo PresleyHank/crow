@@ -78,10 +78,10 @@
 
 <div class="spacer"></div>
 
-<p style="margin: 0;">Example 5: <span class="small">remove padding (gutter)</span></p>
+<p style="margin: 0;">Example 5: <span class="small">add padding (gutter)</span></p>
 <div class="spacer half"></div>
 <div class="example-box">
-	<div class="crow fly no-gutter">
+	<div class="crow fly gutter">
 	  <div class="blue-one">1</div>
 	  <div class="blue-two">2</div>
 	  <div class="blue-three">3</div>
@@ -89,7 +89,7 @@
 </div>
 <div class="spacer half"></div>
 <code class="language-javascript">
-  <?=htmlspecialchars('<div class="crow fly no-gutter">')?><br />
+  <?=htmlspecialchars('<div class="crow fly gutter">')?><br />
   &nbsp;&nbsp;<?=htmlspecialchars('<div>')?>1<?=htmlspecialchars('</div>')?><br />
   &nbsp;&nbsp;<?=htmlspecialchars('<div>')?>2<?=htmlspecialchars('</div>')?><br />
   &nbsp;&nbsp;<?=htmlspecialchars('<div>')?>3<?=htmlspecialchars('</div>')?><br />
