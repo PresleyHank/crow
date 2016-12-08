@@ -41,24 +41,24 @@
     <h2>Features</h2>
     <div class="spacer quarter"></div>
     <p class="lead">
-      Crow is made standalone which means you can apply to any of your current<br /> markup/web project. Crow essentially stands for column-row.
+      Crow essentially stands for column-row.<br /> It's mainly a smart grid framework, but I'd like you to think of it as a smart layout tool.
     </p>
     <div class="spacer half"></div>
-    <div class="crow up no-gutter">
+    <div class="crow up">
       <div class="ws-12">
         <ul class="inline crow up">
           <li class="ws-4">
             <div class="circle">
               <span class="icon icon-ghost"></span>
             </div>
-            <p>No tables, no absolute positioning, no floats, no clearfix'es
+            <p>No tables, no absolute positioning, no floats and no clearfix'es
             </p>
           </li>
           <li class="ws-4">
             <div class="circle">
               <span class="icon icon-wand"></span>
             </div>
-            <p>Fly functionality automatically sets widths of child elements
+            <p>Adding class ".fly" automatically sets the width of child elements
             </p>
           </li>
           <li class="ws-4">
@@ -107,7 +107,7 @@
 
     <div class="button-height">
       <a href="?download=crow-2.0/crow.min.css" class="button blue">
-        <span class="icon icon-cloud"></span> <span style="vertical-align: top;margin-top: -2px;display:inline-block;">Download</span>
+        <span class="icon icon-cloud"></span> <span style="vertical-align: top;margin-top: -2px;display:inline-block;">Download (minified)</span>
       </a>
     </div>
 

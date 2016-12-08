@@ -46,6 +46,7 @@ body
 
 .show-smartphone
   display: none
+  
 h1, h2, h3, h4, h5, h6
   font-weight: 100
   font-size: 42px
@@ -256,6 +257,39 @@ a
     width: 205px
     text-align: center
     transition: all .15s ease
+    &.red,
+    &.pink,
+    &.deepblue
+      width: 135px
+      font-size: 12px
+      line-height: 12px
+      border-top: 4px solid transparent
+      margin-right: 12px
+      margin-top: 4px
+    &.red
+      background: rgba(252, 100, 77, 1)
+      border-bottom: 4px solid lighten(rgba(252, 100, 77, 1), 10%)
+      &:hover
+        background: rgba(252, 100, 77, 1)
+      &:focus
+        margin-top: 2px
+        border-bottom: 2px solid rgba(252, 100, 77, 1)
+    &.pink
+      background: rgba(196, 85, 140, 1)
+      border-bottom: 4px solid lighten(rgba(196, 85, 140, 1), 10%)
+      &:hover
+        background: rgba(196, 85, 140, 1)
+      &:focus
+        margin-top: 2px
+        border-bottom: 2px solid rgba(196, 85, 140, 1)
+    &.deepblue
+      background: rgba(30, 55, 92, 1)
+      border-bottom: 4px solid lighten(rgba(30, 55, 92, 1), 10%)
+      &:hover
+        background: rgba(30, 55, 92, 1)
+      &:focus
+        margin-top: 2px
+        border-bottom: 2px solid rgba(30, 55, 92, 1)
     &.green
       vertical-align: top
       background: light-green()
