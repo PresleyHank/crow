@@ -106,7 +106,7 @@
     <div class="spacer half"></div>
 
     <div class="button-height">
-      <a href="?download=crow-2.0/crow.min.css" class="button blue">
+      <a href="?download=crow-2.1/crow.min.css" class="button blue">
         <span class="icon icon-cloud"></span> <span style="vertical-align: top;margin-top: -2px;display:inline-block;">Download (minified)</span>
       </a>
     </div>
