@@ -11,7 +11,7 @@
 
     $safe = false;
     $explode = explode('/', $_GET['download']);
-    if($explode[0] == 'assets' || $explode[0] == 'crow-2.0') {
+    if($explode[0] == 'assets' || $explode[0] == 'crow-3.0') {
       $safe = true;
     }
 

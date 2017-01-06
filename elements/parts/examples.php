@@ -142,7 +142,7 @@
 <div class="spacer half"></div>
 <div class="example-box" style="height:400px;">
 	<div class="crow" style="height:100%;">
-	  <img src="<?=$app->url?>crow-2.1/crow.jpg" alt="" style="max-width:300px;" />
+	  <img src="<?=$app->url?>crow-3.0/crow.jpg" alt="" style="max-width:250px;" />
 	</div>
 </div>
 <div class="spacer half"></div>

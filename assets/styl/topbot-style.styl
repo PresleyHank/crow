@@ -60,12 +60,13 @@ p
 .bot
   .fullwidth
     background-color: dark-blue()
-    padding: 100px 0
+    padding: 70px 0
     color: get-white()
     h4
       margin-top: 0
       font-size: 28px
       line-height: 36px
+      margin-bottom: 10px
     p
       font-size: 16px
       line-height: 22px
@@ -170,6 +171,8 @@ block-basics()
     color: #1798b6
 #usage
   block-basics()
+  h2
+    margin-bottom: 0
   color: gray()
   text-align: left
   .crow
@@ -177,12 +180,17 @@ block-basics()
     font-weight: bold
 #setup
   block-basics()
+  h2
+    margin-bottom: 0
   background-color: dark-blue()
   .icon-crow
     color: darkest-blue()
   p
     color: get-white()
   a
+    color: #23abca;
+    &:hover
+      text-decoration: underline
     &.button
       max-width: 565px
       width: 100%
@@ -193,6 +201,8 @@ block-basics()
     z-index: 0
 #features
   block-basics()
+  h2
+    margin-bottom: 0px
   .ws-4
     padding: 30px 15px
     p
@@ -200,6 +210,10 @@ block-basics()
       font-size: 20px
       line-height: 26px
       text-align: center
+  a
+    color: #23abca
+    &:hover
+      text-decoration: underline
   .circle
     margin: 0 30px
     background: light-green()

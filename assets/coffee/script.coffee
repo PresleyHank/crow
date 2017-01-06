@@ -7,7 +7,7 @@ initWaypoint = ->
   sticky = new (Waypoint.Sticky)(element: $('.sticky')[0])
 
 initScrollto = ->
-	$(document).on 'click', '.sticky a', ->
+	$(document).on 'click', 'a[scroll-link]', ->
 		href = $(this).attr 'href'
 
 		$('html, body').animate

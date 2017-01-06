@@ -1,7 +1,7 @@
 {
-  "name": "topbot",
+  "name": "crow",
   "version": "1.0.0",
-  "description": "topbot",
+  "description": "Crow A smart grid framework, not just for grids",
   "main": "index.js",
   "dependencies": {
     "grunt": "^0.4.5"
@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/kkortes/topbot.git"
+    "url": "https://github.com/kkortes/crow.git"
   },
   "author": "Kim Korte",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kkortes/topbot/issues"
+    "url": "https://github.com/kkortes/crow/issues"
   },
-  "homepage": "https://github.com/kkortes/topbot"
+  "homepage": "https://github.com/kkortes/crow"
 }

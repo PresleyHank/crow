@@ -14,7 +14,7 @@
 
           <ul class="inline">
             <li>
-              <a href="?download=crow-2.1/crow.css" target="_blank" class="button blue" style="padding-top: 13px;">Download css</a>
+              <a href="?download=crow-3.0/crow.css" target="_blank" class="button blue" style="padding-top: 13px;">Download css</a>
             </li>
             <li>
               <a href="https://github.com/kkortes/crow" target="_blank" class="button green" style="padding-top: 13px;">
@@ -25,13 +25,13 @@
           </ul>
           <ul class="inline hide-smartphone">
             <li>
-              <a href="?download=crow-2.1/crow.styl" target="_blank" class="button lightred" style="padding-top: 13px;">Stylus</a>
+              <a href="?download=crow-3.0/crow.styl" target="_blank" class="button lightred" style="padding-top: 13px;">Stylus</a>
             </li>
             <li>
-              <a href="?download=crow-2.1/crow.less" target="_blank" class="button pink" style="padding-top: 13px;">Less</a>
+              <a href="?download=crow-3.0/crow.less" target="_blank" class="button pink" style="padding-top: 13px;">Less</a>
             </li>
             <li>
-              <a href="?download=crow-2.1/crow.scss" target="_blank" class="button deepblue" style="padding-top: 13px;">Sass</a>
+              <a href="?download=crow-3.0/crow.scss" target="_blank" class="button deepblue" style="padding-top: 13px;">Sass</a>
             </li>
           </ul>
         </div>
