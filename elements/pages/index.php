@@ -105,7 +105,7 @@
     <h2>Use with flexbox</h2>
     <div class="spacer quarter"></div>
     <p class="lead relative" style="text-align: left;">
-      I think we all love flexbox when it comes to layouts. I know I do. However back in 2013 (when the first version of crow was made) flexbox wasn't really a thing. Flexbox is not 100% ready for the world yet, unless you only build websites/webapps targeting the newest version of things. According to <a href="http://canisuse.com/#search=flexbox">caniuse.com</a> flexbox is only supported in IE11+.<br /><br />
+      I think we all love flexbox when it comes to layouts. I know I do. However back in 2013 (when the first version of crow was made) flexbox wasn't really a thing. Flexbox is not 100% ready for the world yet, unless you build websites/webapps only targeting the newest version of things. According to <a href="http://canisuse.com/#search=flexbox">caniuse.com</a> flexbox is only supported in IE11+.<br /><br />
       When I created crow I did so to tackle a whole bunch of problems that comes with a traditional grid framework. Today crow runs on production environments on over 20 websites with great success.<br /><br />
       <strong>I'm happy to announce <span style="color: #23abca;">Flexcrow</span></strong><br />
       Oh jeez.. Another hacky-tacky thing? <br />No! Flexcrow is just crow, built with flexbox. Simple as that.<br /><br />
