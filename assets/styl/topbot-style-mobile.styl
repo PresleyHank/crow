@@ -4,6 +4,11 @@
     font-size: 50%
   .hide-smartphone
     display: none !important
+  #setup
+    code
+      width: 90%
+    p
+      padding: 0 20px
   body
     overflow: hidden
     h1, h2, h3, h4, h5, h6
@@ -22,10 +27,7 @@
       word-break: break-all !important
       font-size: 10px
       white-space: pre-line !important
-    p
-      padding: 0 15px
-      br
-        display: none
+  
     a
       &.button
         width: 90% !important
@@ -35,11 +37,13 @@
       #features,
       #tips
         .crow
-          uncrow()
+          uncrowify()
     .example-box
       img
         width: 150px
     .sticky
+      a
+        padding: 20px
       .nest
         padding: 0
       .pull-right
